@@ -1390,6 +1390,21 @@ body {
   background: #000;
   z-index: 900;
 }
+.video-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #e4002b;
+  color: #e4002b;
+  background: rgba(0,0,0,0.4);
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+}
 .final-heading {
   color: #fce700;
   font-size: 2rem;

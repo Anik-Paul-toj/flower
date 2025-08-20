@@ -1410,4 +1410,25 @@ body {
   font-size: 2rem;
 }
 #love-video { max-width: 90vw; max-height: 70vh; border: 6px solid #e4002b; border-radius: 12px; box-shadow: 0 0 20px rgba(228, 0, 43, 0.5); }
+/* Typewriter message under the video */
+.typewriter {
+  color: #ffffff;
+  font-size: 1.2rem;
+  max-width: 90vw;
+  text-align: center;
+  min-height: 1.6em;
+  white-space: pre-line;
+}
+.caret {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: #e4002b;
+  margin-left: 4px;
+  vertical-align: bottom;
+  -webkit-animation: caret-blink 1s steps(1) infinite;
+          animation: caret-blink 1s steps(1) infinite;
+}
+@-webkit-keyframes caret-blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+@keyframes caret-blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
 /*# sourceMappingURL=main.css.map */
